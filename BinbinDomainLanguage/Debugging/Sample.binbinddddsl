@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dominDriveDesignModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="66cec18f-012d-4ab0-b0b3-f76d4a468efe" xmlns="http://schemas.microsoft.com/dsltools/BinbinDomainLanguage">
+  <aggregateRootEntity>
+    <dominDriveDesignModelHasAggregateRootEntity Id="5aea9173-67b8-42c6-99ac-200b508d238b">
+      <aggregateRootEntities Id="e140199a-ee55-454b-9cf5-f662ad7c9ccd" name="Product" />
+    </dominDriveDesignModelHasAggregateRootEntity>
+  </aggregateRootEntity>
+  <entityModels>
+    <dominDriveDesignModelHasEntityModels Id="42e7cdde-5f46-4e61-95de-f99ea9d12eb8">
+      <entityModel Id="0dc3548f-4b04-4260-86ee-40af02f5233f" name="test">
+        <targetEntityModels>
+          <entityModelReferencesTargetEntityModels Id="9356f3ec-7b28-4d01-9cdd-ff6ca84a0918">
+            <entityModelMoniker Id="b65ffb57-6a4f-4dda-bacb-a80c8f59ca5e" />
+          </entityModelReferencesTargetEntityModels>
+        </targetEntityModels>
+      </entityModel>
+    </dominDriveDesignModelHasEntityModels>
+    <dominDriveDesignModelHasEntityModels Id="824d9078-a38e-45c9-abf4-9c2433e30194">
+      <entityModel Id="b65ffb57-6a4f-4dda-bacb-a80c8f59ca5e">
+        <targetEntityModels>
+          <entityModelReferencesTargetEntityModels Id="9b850e27-119d-4236-9c56-c12766fe268c">
+            <entityModelMoniker Id="0dc3548f-4b04-4260-86ee-40af02f5233f" />
+          </entityModelReferencesTargetEntityModels>
+        </targetEntityModels>
+      </entityModel>
+    </dominDriveDesignModelHasEntityModels>
+  </entityModels>
+  <domainServiceModels>
+    <dominDriveDesignModelHasDomainServiceModels Id="7a0e4592-551d-4639-b213-2a37a38df87f">
+      <domainServiceModel Id="0a541476-9324-4564-b200-b4c7524e89f1" name="ProductManageDomainService" />
+    </dominDriveDesignModelHasDomainServiceModels>
+  </domainServiceModels>
+  <factoryModels>
+    <dominDriveDesignModelHasFactoryModels Id="1666fdd8-d304-48fc-a3b1-992ac5af4353">
+      <factoryModel Id="92ecf302-a51b-4e20-977d-45651388e7bf" />
+    </dominDriveDesignModelHasFactoryModels>
+  </factoryModels>
+  <valueObjectModels>
+    <dominDriveDesignModelHasValueObjectModels Id="664946ce-f27a-4204-a43c-c4331e17a0ce">
+      <valueObjectModel Id="05a2ad36-4635-4a54-a88f-5ce20906443b" />
+    </dominDriveDesignModelHasValueObjectModels>
+  </valueObjectModels>
+  <domainEventModels>
+    <dominDriveDesignModelHasDomainEventModels Id="5ab03064-0ff0-4faf-8cf3-04434eb86abb">
+      <domainEventModel Id="9cef3903-3af7-4266-8794-b1508be91ee1" />
+    </dominDriveDesignModelHasDomainEventModels>
+  </domainEventModels>
+</dominDriveDesignModel>

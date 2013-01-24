@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<binbinDomainLanguageDiagram dslVersion="1.0.0.0" Id="3240a0be-3843-4e13-bcbc-71903dceb148" absoluteBounds="0, 0, 11, 8.5" name="Test">
+  <dominDriveDesignModelMoniker Id="15539d37-5df8-4852-a9d3-5a300bf6faac" />
+  <nestedChildShapes>
+    <aggregateRootShape Id="63551ab8-6e96-46cb-a1f1-6056245ddc83" absoluteBounds="3, 0.5, 2, 0.75">
+      <aggregateRootEntitiesMoniker Id="129500ed-3e9a-44a9-8440-ebda8a15e6d4" />
+    </aggregateRootShape>
+    <aggregateRootShape Id="1d404499-690c-4647-a6bf-146005e42fd0" absoluteBounds="0.5, 1.75, 2, 0.75">
+      <aggregateRootEntitiesMoniker Id="ebff7bc1-8661-4a31-9110-5684f8e28130" />
+    </aggregateRootShape>
+    <aggregateRootShape Id="c5891f28-2c6d-4621-83c9-cb0af77ff250" absoluteBounds="0.5, 3.5, 2, 0.75">
+      <aggregateRootEntitiesMoniker Id="6a9ff66d-5e9a-47ee-a10c-358fc1e85357" />
+    </aggregateRootShape>
+  </nestedChildShapes>
+</binbinDomainLanguageDiagram>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<binbinDomainLanguageDiagram dslVersion="1.0.0.0" Id="aa072bbe-501e-4381-9815-57e12ae9f86c" absoluteBounds="0, 0, 11, 8.5" name="Sample">
+  <dominDriveDesignModelMoniker Id="66cec18f-012d-4ab0-b0b3-f76d4a468efe" />
+  <nestedChildShapes>
+    <aggregateRootShape Id="d8004865-f5c7-4c8b-be20-07488274020d" absoluteBounds="1.5, 1.625, 2, 0.75">
+      <aggregateRootEntitiesMoniker Id="e140199a-ee55-454b-9cf5-f662ad7c9ccd" />
+      <relativeChildShapes />
+    </aggregateRootShape>
+    <entityShape Id="e965c679-7f1c-4371-be34-f93cb5ddceaf" absoluteBounds="0.5, 2.5, 2, 0.75">
+      <entityModelMoniker Id="0dc3548f-4b04-4260-86ee-40af02f5233f" />
+    </entityShape>
+    <entityShape Id="b9a3ca72-ae23-4381-8482-2b1bbb91faa1" absoluteBounds="0.625, 3.875, 2, 0.75">
+      <entityModelMoniker Id="b65ffb57-6a4f-4dda-bacb-a80c8f59ca5e" />
+    </entityShape>
+    <factoryShape Id="bcf8bcd1-3a93-4ecf-b595-8ad0428346e5" absoluteBounds="3.75, 1.5, 2, 0.75">
+      <factoryModelMoniker Id="92ecf302-a51b-4e20-977d-45651388e7bf" />
+    </factoryShape>
+    <valueObjectShape Id="60bff4bc-9d13-49d4-8214-389df2594f94" absoluteBounds="4.125, 2.875, 2, 0.75">
+      <valueObjectModelMoniker Id="05a2ad36-4635-4a54-a88f-5ce20906443b" />
+    </valueObjectShape>
+    <domainServiceShape Id="93f9f46d-966c-48e3-90a8-f29fe436ab62" absoluteBounds="2, 0.5, 2, 0.75">
+      <domainServiceModelMoniker Id="0a541476-9324-4564-b200-b4c7524e89f1" />
+    </domainServiceShape>
+    <domainEventShape Id="d622a44a-2d59-4df2-9997-55d6db9c475c" absoluteBounds="3.25, 4.25, 2, 0.75">
+      <domainEventModelMoniker Id="9cef3903-3af7-4266-8794-b1508be91ee1" />
+    </domainEventShape>
+  </nestedChildShapes>
+</binbinDomainLanguageDiagram>

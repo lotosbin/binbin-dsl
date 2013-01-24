@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dominDriveDesignModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="15539d37-5df8-4852-a9d3-5a300bf6faac" xmlns="http://schemas.microsoft.com/dsltools/BinbinDomainLanguage">
+  <aggregateRootEntity>
+    <dominDriveDesignModelHasAggregateRootEntity Id="774814a5-ece5-483f-8a94-23efb5d23073">
+      <aggregateRootEntities Id="129500ed-3e9a-44a9-8440-ebda8a15e6d4" />
+    </dominDriveDesignModelHasAggregateRootEntity>
+    <dominDriveDesignModelHasAggregateRootEntity Id="05c75517-4b9e-4128-a561-219fb87d39c3">
+      <aggregateRootEntities Id="ebff7bc1-8661-4a31-9110-5684f8e28130" />
+    </dominDriveDesignModelHasAggregateRootEntity>
+    <dominDriveDesignModelHasAggregateRootEntity Id="86622b29-3faa-43cf-87bb-556275f507bd">
+      <aggregateRootEntities Id="6a9ff66d-5e9a-47ee-a10c-358fc1e85357" />
+    </dominDriveDesignModelHasAggregateRootEntity>
+  </aggregateRootEntity>
+</dominDriveDesignModel>

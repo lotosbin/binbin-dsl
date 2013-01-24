@@ -1,0 +1,17 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<TemplateID>{77ea8c61-19ab-4c60-b3a5-ee95c977928a}</TemplateID>
+		<Name Package="{26e42182-9b3f-4454-9c6b-7dd99a96a13d}" ID="103"/>
+		<Description Package="{26e42182-9b3f-4454-9c6b-7dd99a96a13d}" ID="102"/>
+		<Icon Package="{26e42182-9b3f-4454-9c6b-7dd99a96a13d}" ID="201" />
+		<ProjectType>CSharp</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>BinbinDomainLanguage.binbinddddsl</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.binbinddddsl">binbinddddsl.binbinddddsl</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.binbinddddsl.diagram">binbinddddsl.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+

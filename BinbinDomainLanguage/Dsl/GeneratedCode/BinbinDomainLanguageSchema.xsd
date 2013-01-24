@@ -1,0 +1,751 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema id="BinbinDomainLanguageSchema" targetNamespace="http://schemas.microsoft.com/dsltools/BinbinDomainLanguage" elementFormDefault="qualified" xmlns="http://schemas.microsoft.com/dsltools/BinbinDomainLanguage" xmlns:core="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import id="CoreSchema" namespace="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" />
+  <!-- DominDriveDesignModel -->
+  <xsd:element name="dominDriveDesignModel" type="DominDriveDesignModel" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="DominDriveDesignModel">
+    <xsd:annotation>
+      <xsd:documentation>The root in which all other elements are embedded. Appears as a diagram.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Relationship: DominDriveDesignModelHasAggregateRootEntity -->
+          <xsd:element name="aggregateRootEntity" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of DominDriveDesignModelHasAggregateRootEntity</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="dominDriveDesignModelHasAggregateRootEntity" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of DominDriveDesignModelHasAggregateRootEntity needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+          <!-- Relationship: DominDriveDesignModelHasEntityModels -->
+          <xsd:element name="entityModels" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of DominDriveDesignModelHasEntityModels</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="dominDriveDesignModelHasEntityModels" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of DominDriveDesignModelHasEntityModels needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+          <!-- Relationship: DominDriveDesignModelHasDomainServiceModels -->
+          <xsd:element name="domainServiceModels" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of DominDriveDesignModelHasDomainServiceModels</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="dominDriveDesignModelHasDomainServiceModels" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of DominDriveDesignModelHasDomainServiceModels needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+          <!-- Relationship: DominDriveDesignModelHasFactoryModels -->
+          <xsd:element name="factoryModels" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of DominDriveDesignModelHasFactoryModels</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="dominDriveDesignModelHasFactoryModels" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of DominDriveDesignModelHasFactoryModels needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+          <!-- Relationship: DominDriveDesignModelHasValueObjectModels -->
+          <xsd:element name="valueObjectModels" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of DominDriveDesignModelHasValueObjectModels</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="dominDriveDesignModelHasValueObjectModels" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of DominDriveDesignModelHasValueObjectModels needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+          <!-- Relationship: DominDriveDesignModelHasDomainEventModels -->
+          <xsd:element name="domainEventModels" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of DominDriveDesignModelHasDomainEventModels</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="dominDriveDesignModelHasDomainEventModels" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of DominDriveDesignModelHasDomainEventModels needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+        <!-- dslVersion -->
+        <xsd:attribute name="dslVersion" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Version of the model serialized in this file.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- DominDriveDesignModel Moniker -->
+  <xsd:element name="dominDriveDesignModelMoniker" type="DominDriveDesignModelMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="DominDriveDesignModelMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for DominDriveDesignModel instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- AggregateRootEntities -->
+  <xsd:element name="aggregateRootEntities" type="AggregateRootEntities" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="AggregateRootEntities">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Relationship: AggregateRootEntitiesReferencesEntityModels -->
+          <xsd:element name="entityModels" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of AggregateRootEntitiesReferencesEntityModels</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="aggregateRootEntitiesReferencesEntityModels" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of AggregateRootEntitiesReferencesEntityModels needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+        <!-- Property: Name -->
+        <xsd:attribute name="name" type="xsd:string" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- AggregateRootEntities Moniker -->
+  <xsd:element name="aggregateRootEntitiesMoniker" type="AggregateRootEntitiesMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="AggregateRootEntitiesMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for AggregateRootEntities instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- ValueObjectModel -->
+  <xsd:element name="valueObjectModel" type="ValueObjectModel" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="ValueObjectModel">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+        <!-- Property: Name -->
+        <xsd:attribute name="name" type="xsd:string" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- ValueObjectModel Moniker -->
+  <xsd:element name="valueObjectModelMoniker" type="ValueObjectModelMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="ValueObjectModelMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for ValueObjectModel instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- EntityModel -->
+  <xsd:element name="entityModel" type="EntityModel" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="EntityModel">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Relationship: EntityModelReferencesValueObjectModels -->
+          <xsd:element name="valueObjectModels" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of EntityModelReferencesValueObjectModels</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="entityModelReferencesValueObjectModels" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of EntityModelReferencesValueObjectModels needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+          <!-- Relationship: EntityModelReferencesTargetEntityModels -->
+          <xsd:element name="targetEntityModels" minOccurs="0" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Instances of EntityModelReferencesTargetEntityModels</xsd:documentation>
+            </xsd:annotation>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element ref="entityModelReferencesTargetEntityModels" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:annotation>
+                    <xsd:documentation>[Instance of EntityModelReferencesTargetEntityModels needs to be serialized in full-form]</xsd:documentation>
+                  </xsd:annotation>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+        <!-- Property: Name -->
+        <xsd:attribute name="name" type="xsd:string" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- EntityModel Moniker -->
+  <xsd:element name="entityModelMoniker" type="EntityModelMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="EntityModelMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for EntityModel instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- DomainServiceModel -->
+  <xsd:element name="domainServiceModel" type="DomainServiceModel" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="DomainServiceModel">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+        <!-- Property: Name -->
+        <xsd:attribute name="name" type="xsd:string" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- DomainServiceModel Moniker -->
+  <xsd:element name="domainServiceModelMoniker" type="DomainServiceModelMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="DomainServiceModelMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for DomainServiceModel instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- FactoryModel -->
+  <xsd:element name="factoryModel" type="FactoryModel" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="FactoryModel">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+        <!-- Property: Name -->
+        <xsd:attribute name="name" type="xsd:string" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- FactoryModel Moniker -->
+  <xsd:element name="factoryModelMoniker" type="FactoryModelMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="FactoryModelMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for FactoryModel instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- DomainEventModel -->
+  <xsd:element name="domainEventModel" type="DomainEventModel" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="DomainEventModel">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+        <!-- Property: Name -->
+        <xsd:attribute name="name" type="xsd:string" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- DomainEventModel Moniker -->
+  <xsd:element name="domainEventModelMoniker" type="DomainEventModelMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="DomainEventModelMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for DomainEventModel instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- DominDriveDesignModelHasAggregateRootEntity -->
+  <xsd:element name="dominDriveDesignModelHasAggregateRootEntity" type="DominDriveDesignModelHasAggregateRootEntity" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="DominDriveDesignModelHasAggregateRootEntity">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end AggregateRootEntities -->
+          <xsd:element ref="aggregateRootEntities" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- DominDriveDesignModelHasAggregateRootEntity Moniker -->
+  <xsd:element name="dominDriveDesignModelHasAggregateRootEntityMoniker" type="DominDriveDesignModelHasAggregateRootEntityMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="DominDriveDesignModelHasAggregateRootEntityMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for DominDriveDesignModelHasAggregateRootEntity instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- EntityModelReferencesValueObjectModels -->
+  <xsd:element name="entityModelReferencesValueObjectModels" type="EntityModelReferencesValueObjectModels" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="EntityModelReferencesValueObjectModels">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end ValueObjectModel -->
+          <xsd:element ref="valueObjectModelMoniker" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- EntityModelReferencesValueObjectModels Moniker -->
+  <xsd:element name="entityModelReferencesValueObjectModelsMoniker" type="EntityModelReferencesValueObjectModelsMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="EntityModelReferencesValueObjectModelsMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for EntityModelReferencesValueObjectModels instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- EntityModelReferencesTargetEntityModels -->
+  <xsd:element name="entityModelReferencesTargetEntityModels" type="EntityModelReferencesTargetEntityModels" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="EntityModelReferencesTargetEntityModels">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end EntityModel -->
+          <xsd:element ref="entityModelMoniker" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- EntityModelReferencesTargetEntityModels Moniker -->
+  <xsd:element name="entityModelReferencesTargetEntityModelsMoniker" type="EntityModelReferencesTargetEntityModelsMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="EntityModelReferencesTargetEntityModelsMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for EntityModelReferencesTargetEntityModels instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- AggregateRootEntitiesReferencesEntityModels -->
+  <xsd:element name="aggregateRootEntitiesReferencesEntityModels" type="AggregateRootEntitiesReferencesEntityModels" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="AggregateRootEntitiesReferencesEntityModels">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end EntityModel -->
+          <xsd:element ref="entityModelMoniker" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- AggregateRootEntitiesReferencesEntityModels Moniker -->
+  <xsd:element name="aggregateRootEntitiesReferencesEntityModelsMoniker" type="AggregateRootEntitiesReferencesEntityModelsMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="AggregateRootEntitiesReferencesEntityModelsMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for AggregateRootEntitiesReferencesEntityModels instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- DominDriveDesignModelHasEntityModels -->
+  <xsd:element name="dominDriveDesignModelHasEntityModels" type="DominDriveDesignModelHasEntityModels" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="DominDriveDesignModelHasEntityModels">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end EntityModel -->
+          <xsd:element ref="entityModel" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- DominDriveDesignModelHasEntityModels Moniker -->
+  <xsd:element name="dominDriveDesignModelHasEntityModelsMoniker" type="DominDriveDesignModelHasEntityModelsMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="DominDriveDesignModelHasEntityModelsMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for DominDriveDesignModelHasEntityModels instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- DominDriveDesignModelHasDomainServiceModels -->
+  <xsd:element name="dominDriveDesignModelHasDomainServiceModels" type="DominDriveDesignModelHasDomainServiceModels" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="DominDriveDesignModelHasDomainServiceModels">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end DomainServiceModel -->
+          <xsd:element ref="domainServiceModel" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- DominDriveDesignModelHasDomainServiceModels Moniker -->
+  <xsd:element name="dominDriveDesignModelHasDomainServiceModelsMoniker" type="DominDriveDesignModelHasDomainServiceModelsMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="DominDriveDesignModelHasDomainServiceModelsMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for DominDriveDesignModelHasDomainServiceModels instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- DominDriveDesignModelHasFactoryModels -->
+  <xsd:element name="dominDriveDesignModelHasFactoryModels" type="DominDriveDesignModelHasFactoryModels" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="DominDriveDesignModelHasFactoryModels">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end FactoryModel -->
+          <xsd:element ref="factoryModel" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- DominDriveDesignModelHasFactoryModels Moniker -->
+  <xsd:element name="dominDriveDesignModelHasFactoryModelsMoniker" type="DominDriveDesignModelHasFactoryModelsMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="DominDriveDesignModelHasFactoryModelsMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for DominDriveDesignModelHasFactoryModels instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- DominDriveDesignModelHasValueObjectModels -->
+  <xsd:element name="dominDriveDesignModelHasValueObjectModels" type="DominDriveDesignModelHasValueObjectModels" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="DominDriveDesignModelHasValueObjectModels">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end ValueObjectModel -->
+          <xsd:element ref="valueObjectModel" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- DominDriveDesignModelHasValueObjectModels Moniker -->
+  <xsd:element name="dominDriveDesignModelHasValueObjectModelsMoniker" type="DominDriveDesignModelHasValueObjectModelsMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="DominDriveDesignModelHasValueObjectModelsMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for DominDriveDesignModelHasValueObjectModels instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- DominDriveDesignModelHasDomainEventModels -->
+  <xsd:element name="dominDriveDesignModelHasDomainEventModels" type="DominDriveDesignModelHasDomainEventModels" substitutionGroup="core:modelElement" />
+  <xsd:complexType name="DominDriveDesignModelHasDomainEventModels">
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElement">
+        <xsd:sequence minOccurs="0" maxOccurs="1">
+          <!-- Target end DomainEventModel -->
+          <xsd:element ref="domainEventModel" minOccurs="1" maxOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>[Target role-player]</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+        <!-- Id -->
+        <xsd:attribute name="Id" type="xsd:string">
+          <xsd:annotation>
+            <xsd:documentation>Instance Guid of this element, needed because SerializeId is set to true.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <!-- DominDriveDesignModelHasDomainEventModels Moniker -->
+  <xsd:element name="dominDriveDesignModelHasDomainEventModelsMoniker" type="DominDriveDesignModelHasDomainEventModelsMoniker" substitutionGroup="core:modelElementMoniker" />
+  <xsd:complexType name="DominDriveDesignModelHasDomainEventModelsMoniker">
+    <xsd:annotation>
+      <xsd:documentation>Moniker for DominDriveDesignModelHasDomainEventModels instance.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="core:ModelElementMoniker">
+        <xsd:attribute name="Id" type="xsd:string" >
+          <xsd:annotation>
+            <xsd:documentation>Attribute to store the moniker string.</xsd:documentation>
+          </xsd:annotation>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+</xsd:schema>
+

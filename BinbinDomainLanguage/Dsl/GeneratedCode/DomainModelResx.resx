@@ -1,0 +1,847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Com.Lotos.BinbinDomainLanguage.BinbinDomainLanguageDomainModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.BinbinDomainLanguage</value>
+    <comment>Description for DslLibrary &apos;BinbinDomainLanguage&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.BinbinDomainLanguageDomainModel.DisplayName" xml:space="preserve">
+    <value>BinbinDomainLanguage</value>
+    <comment>DisplayName for DslLibrary &apos;BinbinDomainLanguage&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModel.Description" xml:space="preserve">
+    <value>The root in which all other elements are embedded. Appears as a diagram.</value>
+    <comment>Description for DomainClass &apos;DominDriveDesignModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModel.DisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model</value>
+    <comment>DisplayName for DomainClass &apos;DominDriveDesignModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.AggregateRootEntities.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.AggregateRootEntities</value>
+    <comment>Description for DomainClass &apos;AggregateRootEntities&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.AggregateRootEntities.DisplayName" xml:space="preserve">
+    <value>Aggregate Root Entities</value>
+    <comment>DisplayName for DomainClass &apos;AggregateRootEntities&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.AggregateRootEntities/Name.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.AggregateRootEntities.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;AggregateRootEntities&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.AggregateRootEntities/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;AggregateRootEntities&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.ValueObjectModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.ValueObjectModel</value>
+    <comment>Description for DomainClass &apos;ValueObjectModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.ValueObjectModel.DisplayName" xml:space="preserve">
+    <value>Value Object Model</value>
+    <comment>DisplayName for DomainClass &apos;ValueObjectModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.ValueObjectModel/Name.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.ValueObjectModel.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;ValueObjectModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.ValueObjectModel/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;ValueObjectModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.EntityModel</value>
+    <comment>Description for DomainClass &apos;EntityModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModel.DisplayName" xml:space="preserve">
+    <value>Entity Model</value>
+    <comment>DisplayName for DomainClass &apos;EntityModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModel/Name.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.EntityModel.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;EntityModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModel/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;EntityModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DomainServiceModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DomainServiceModel</value>
+    <comment>Description for DomainClass &apos;DomainServiceModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DomainServiceModel.DisplayName" xml:space="preserve">
+    <value>Domain Service Model</value>
+    <comment>DisplayName for DomainClass &apos;DomainServiceModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DomainServiceModel/Name.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DomainServiceModel.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;DomainServiceModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DomainServiceModel/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;DomainServiceModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.FactoryModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.FactoryModel</value>
+    <comment>Description for DomainClass &apos;FactoryModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.FactoryModel.DisplayName" xml:space="preserve">
+    <value>Factory Model</value>
+    <comment>DisplayName for DomainClass &apos;FactoryModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.FactoryModel/Name.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.FactoryModel.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;FactoryModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.FactoryModel/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;FactoryModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DomainEventModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DomainEventModel</value>
+    <comment>Description for DomainClass &apos;DomainEventModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DomainEventModel.DisplayName" xml:space="preserve">
+    <value>Domain Event Model</value>
+    <comment>DisplayName for DomainClass &apos;DomainEventModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DomainEventModel/Name.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DomainEventModel.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;DomainEventModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DomainEventModel/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;DomainEventModel&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasAggregateRootEntity.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasAggregateRootEntity</value>
+    <comment>Description for DomainClass &apos;DominDriveDesignModelHasAggregateRootEntity&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasAggregateRootEntity.DisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model Has Aggregate Root Entity</value>
+    <comment>DisplayName for DomainClass &apos;DominDriveDesignModelHasAggregateRootEntity&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasAggregateRootEntity/DominDriveDesignModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasAggregateRootEntity.DominDriveDesignModel</value>
+    <comment>Description for DomainRole &apos;DominDriveDesignModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasAggregateRootEntity&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasAggregateRootEntity/DominDriveDesignModel.DisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model</value>
+    <comment>DisplayName for DomainRole &apos;DominDriveDesignModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasAggregateRootEntity&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasAggregateRootEntity/DominDriveDesignModel.PropertyDisplayName" xml:space="preserve">
+    <value>Aggregate Root Entity</value>
+    <comment>PropertyDisplayName for DomainRole &apos;DominDriveDesignModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasAggregateRootEntity&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasAggregateRootEntity/AggregateRootEntities.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasAggregateRootEntity.AggregateRootEntities</value>
+    <comment>Description for DomainRole &apos;AggregateRootEntities&apos; on DomainRelationship &apos;DominDriveDesignModelHasAggregateRootEntity&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasAggregateRootEntity/AggregateRootEntities.DisplayName" xml:space="preserve">
+    <value>Aggregate Root Entities</value>
+    <comment>DisplayName for DomainRole &apos;AggregateRootEntities&apos; on DomainRelationship &apos;DominDriveDesignModelHasAggregateRootEntity&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasAggregateRootEntity/AggregateRootEntities.PropertyDisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;AggregateRootEntities&apos; on DomainRelationship &apos;DominDriveDesignModelHasAggregateRootEntity&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModelReferencesValueObjectModels.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.EntityModelReferencesValueObjectModels</value>
+    <comment>Description for DomainClass &apos;EntityModelReferencesValueObjectModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModelReferencesValueObjectModels.DisplayName" xml:space="preserve">
+    <value>Entity Model References Value Object Models</value>
+    <comment>DisplayName for DomainClass &apos;EntityModelReferencesValueObjectModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModelReferencesValueObjectModels/EntityModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.EntityModelReferencesValueObjectModels.EntityModel</value>
+    <comment>Description for DomainRole &apos;EntityModel&apos; on DomainRelationship &apos;EntityModelReferencesValueObjectModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModelReferencesValueObjectModels/EntityModel.DisplayName" xml:space="preserve">
+    <value>Entity Model</value>
+    <comment>DisplayName for DomainRole &apos;EntityModel&apos; on DomainRelationship &apos;EntityModelReferencesValueObjectModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModelReferencesValueObjectModels/EntityModel.PropertyDisplayName" xml:space="preserve">
+    <value>Value Object Models</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EntityModel&apos; on DomainRelationship &apos;EntityModelReferencesValueObjectModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModelReferencesValueObjectModels/ValueObjectModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.EntityModelReferencesValueObjectModels.ValueObjectModel</value>
+    <comment>Description for DomainRole &apos;ValueObjectModel&apos; on DomainRelationship &apos;EntityModelReferencesValueObjectModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModelReferencesValueObjectModels/ValueObjectModel.DisplayName" xml:space="preserve">
+    <value>Value Object Model</value>
+    <comment>DisplayName for DomainRole &apos;ValueObjectModel&apos; on DomainRelationship &apos;EntityModelReferencesValueObjectModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModelReferencesValueObjectModels/ValueObjectModel.PropertyDisplayName" xml:space="preserve">
+    <value>Entity Models</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ValueObjectModel&apos; on DomainRelationship &apos;EntityModelReferencesValueObjectModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModelReferencesTargetEntityModels.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.EntityModelReferencesTargetEntityModels</value>
+    <comment>Description for DomainClass &apos;EntityModelReferencesTargetEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModelReferencesTargetEntityModels.DisplayName" xml:space="preserve">
+    <value>Entity Model References Target Entity Models</value>
+    <comment>DisplayName for DomainClass &apos;EntityModelReferencesTargetEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModelReferencesTargetEntityModels/SourceEntityModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.EntityModelReferencesTargetEntityModels.SourceEntityModel</value>
+    <comment>Description for DomainRole &apos;SourceEntityModel&apos; on DomainRelationship &apos;EntityModelReferencesTargetEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModelReferencesTargetEntityModels/SourceEntityModel.DisplayName" xml:space="preserve">
+    <value>Source Entity Model</value>
+    <comment>DisplayName for DomainRole &apos;SourceEntityModel&apos; on DomainRelationship &apos;EntityModelReferencesTargetEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModelReferencesTargetEntityModels/SourceEntityModel.PropertyDisplayName" xml:space="preserve">
+    <value>Target Entity Models</value>
+    <comment>PropertyDisplayName for DomainRole &apos;SourceEntityModel&apos; on DomainRelationship &apos;EntityModelReferencesTargetEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModelReferencesTargetEntityModels/TargetEntityModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.EntityModelReferencesTargetEntityModels.TargetEntityModel</value>
+    <comment>Description for DomainRole &apos;TargetEntityModel&apos; on DomainRelationship &apos;EntityModelReferencesTargetEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModelReferencesTargetEntityModels/TargetEntityModel.DisplayName" xml:space="preserve">
+    <value>Target Entity Model</value>
+    <comment>DisplayName for DomainRole &apos;TargetEntityModel&apos; on DomainRelationship &apos;EntityModelReferencesTargetEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityModelReferencesTargetEntityModels/TargetEntityModel.PropertyDisplayName" xml:space="preserve">
+    <value>Source Entity Models</value>
+    <comment>PropertyDisplayName for DomainRole &apos;TargetEntityModel&apos; on DomainRelationship &apos;EntityModelReferencesTargetEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.AggregateRootEntitiesReferencesEntityModels.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.AggregateRootEntitiesReferencesEntityModels</value>
+    <comment>Description for DomainClass &apos;AggregateRootEntitiesReferencesEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.AggregateRootEntitiesReferencesEntityModels.DisplayName" xml:space="preserve">
+    <value>Aggregate Root Entities References Entity Models</value>
+    <comment>DisplayName for DomainClass &apos;AggregateRootEntitiesReferencesEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.AggregateRootEntitiesReferencesEntityModels/AggregateRootEntities.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.AggregateRootEntitiesReferencesEntityModels.AggregateRootEntities</value>
+    <comment>Description for DomainRole &apos;AggregateRootEntities&apos; on DomainRelationship &apos;AggregateRootEntitiesReferencesEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.AggregateRootEntitiesReferencesEntityModels/AggregateRootEntities.DisplayName" xml:space="preserve">
+    <value>Aggregate Root Entities</value>
+    <comment>DisplayName for DomainRole &apos;AggregateRootEntities&apos; on DomainRelationship &apos;AggregateRootEntitiesReferencesEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.AggregateRootEntitiesReferencesEntityModels/AggregateRootEntities.PropertyDisplayName" xml:space="preserve">
+    <value>Entity Models</value>
+    <comment>PropertyDisplayName for DomainRole &apos;AggregateRootEntities&apos; on DomainRelationship &apos;AggregateRootEntitiesReferencesEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.AggregateRootEntitiesReferencesEntityModels/EntityModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.AggregateRootEntitiesReferencesEntityModels.EntityModel</value>
+    <comment>Description for DomainRole &apos;EntityModel&apos; on DomainRelationship &apos;AggregateRootEntitiesReferencesEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.AggregateRootEntitiesReferencesEntityModels/EntityModel.DisplayName" xml:space="preserve">
+    <value>Entity Model</value>
+    <comment>DisplayName for DomainRole &apos;EntityModel&apos; on DomainRelationship &apos;AggregateRootEntitiesReferencesEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.AggregateRootEntitiesReferencesEntityModels/EntityModel.PropertyDisplayName" xml:space="preserve">
+    <value>Aggregate Root Entity</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EntityModel&apos; on DomainRelationship &apos;AggregateRootEntitiesReferencesEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasEntityModels.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasEntityModels</value>
+    <comment>Description for DomainClass &apos;DominDriveDesignModelHasEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasEntityModels.DisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model Has Entity Models</value>
+    <comment>DisplayName for DomainClass &apos;DominDriveDesignModelHasEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasEntityModels/DominDriveDesignModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasEntityModels.DominDriveDesignModel</value>
+    <comment>Description for DomainRole &apos;DominDriveDesignModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasEntityModels/DominDriveDesignModel.DisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model</value>
+    <comment>DisplayName for DomainRole &apos;DominDriveDesignModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasEntityModels/DominDriveDesignModel.PropertyDisplayName" xml:space="preserve">
+    <value>Entity Models</value>
+    <comment>PropertyDisplayName for DomainRole &apos;DominDriveDesignModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasEntityModels/EntityModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasEntityModels.EntityModel</value>
+    <comment>Description for DomainRole &apos;EntityModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasEntityModels/EntityModel.DisplayName" xml:space="preserve">
+    <value>Entity Model</value>
+    <comment>DisplayName for DomainRole &apos;EntityModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasEntityModels/EntityModel.PropertyDisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EntityModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasEntityModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainServiceModels.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainServiceModels</value>
+    <comment>Description for DomainClass &apos;DominDriveDesignModelHasDomainServiceModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainServiceModels.DisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model Has Domain Service Models</value>
+    <comment>DisplayName for DomainClass &apos;DominDriveDesignModelHasDomainServiceModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainServiceModels/DominDriveDesignModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainServiceModels.DominDriveDesignModel</value>
+    <comment>Description for DomainRole &apos;DominDriveDesignModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasDomainServiceModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainServiceModels/DominDriveDesignModel.DisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model</value>
+    <comment>DisplayName for DomainRole &apos;DominDriveDesignModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasDomainServiceModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainServiceModels/DominDriveDesignModel.PropertyDisplayName" xml:space="preserve">
+    <value>Domain Service Models</value>
+    <comment>PropertyDisplayName for DomainRole &apos;DominDriveDesignModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasDomainServiceModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainServiceModels/DomainServiceModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainServiceModels.DomainServiceModel</value>
+    <comment>Description for DomainRole &apos;DomainServiceModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasDomainServiceModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainServiceModels/DomainServiceModel.DisplayName" xml:space="preserve">
+    <value>Domain Service Model</value>
+    <comment>DisplayName for DomainRole &apos;DomainServiceModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasDomainServiceModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainServiceModels/DomainServiceModel.PropertyDisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;DomainServiceModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasDomainServiceModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasFactoryModels.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasFactoryModels</value>
+    <comment>Description for DomainClass &apos;DominDriveDesignModelHasFactoryModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasFactoryModels.DisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model Has Factory Models</value>
+    <comment>DisplayName for DomainClass &apos;DominDriveDesignModelHasFactoryModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasFactoryModels/DominDriveDesignModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasFactoryModels.DominDriveDesignModel</value>
+    <comment>Description for DomainRole &apos;DominDriveDesignModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasFactoryModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasFactoryModels/DominDriveDesignModel.DisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model</value>
+    <comment>DisplayName for DomainRole &apos;DominDriveDesignModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasFactoryModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasFactoryModels/DominDriveDesignModel.PropertyDisplayName" xml:space="preserve">
+    <value>Factory Models</value>
+    <comment>PropertyDisplayName for DomainRole &apos;DominDriveDesignModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasFactoryModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasFactoryModels/FactoryModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasFactoryModels.FactoryModel</value>
+    <comment>Description for DomainRole &apos;FactoryModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasFactoryModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasFactoryModels/FactoryModel.DisplayName" xml:space="preserve">
+    <value>Factory Model</value>
+    <comment>DisplayName for DomainRole &apos;FactoryModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasFactoryModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasFactoryModels/FactoryModel.PropertyDisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;FactoryModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasFactoryModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasValueObjectModels.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasValueObjectModels</value>
+    <comment>Description for DomainClass &apos;DominDriveDesignModelHasValueObjectModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasValueObjectModels.DisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model Has Value Object Models</value>
+    <comment>DisplayName for DomainClass &apos;DominDriveDesignModelHasValueObjectModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasValueObjectModels/DominDriveDesignModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasValueObjectModels.DominDriveDesignModel</value>
+    <comment>Description for DomainRole &apos;DominDriveDesignModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasValueObjectModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasValueObjectModels/DominDriveDesignModel.DisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model</value>
+    <comment>DisplayName for DomainRole &apos;DominDriveDesignModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasValueObjectModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasValueObjectModels/DominDriveDesignModel.PropertyDisplayName" xml:space="preserve">
+    <value>Value Object Models</value>
+    <comment>PropertyDisplayName for DomainRole &apos;DominDriveDesignModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasValueObjectModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasValueObjectModels/ValueObjectModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasValueObjectModels.ValueObjectModel</value>
+    <comment>Description for DomainRole &apos;ValueObjectModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasValueObjectModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasValueObjectModels/ValueObjectModel.DisplayName" xml:space="preserve">
+    <value>Value Object Model</value>
+    <comment>DisplayName for DomainRole &apos;ValueObjectModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasValueObjectModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasValueObjectModels/ValueObjectModel.PropertyDisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ValueObjectModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasValueObjectModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainEventModels.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainEventModels</value>
+    <comment>Description for DomainClass &apos;DominDriveDesignModelHasDomainEventModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainEventModels.DisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model Has Domain Event Models</value>
+    <comment>DisplayName for DomainClass &apos;DominDriveDesignModelHasDomainEventModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainEventModels/DominDriveDesignModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainEventModels.DominDriveDesignModel</value>
+    <comment>Description for DomainRole &apos;DominDriveDesignModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasDomainEventModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainEventModels/DominDriveDesignModel.DisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model</value>
+    <comment>DisplayName for DomainRole &apos;DominDriveDesignModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasDomainEventModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainEventModels/DominDriveDesignModel.PropertyDisplayName" xml:space="preserve">
+    <value>Domain Event Models</value>
+    <comment>PropertyDisplayName for DomainRole &apos;DominDriveDesignModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasDomainEventModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainEventModels/DomainEventModel.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainEventModels.DomainEventModel</value>
+    <comment>Description for DomainRole &apos;DomainEventModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasDomainEventModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainEventModels/DomainEventModel.DisplayName" xml:space="preserve">
+    <value>Domain Event Model</value>
+    <comment>DisplayName for DomainRole &apos;DomainEventModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasDomainEventModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DominDriveDesignModelHasDomainEventModels/DomainEventModel.PropertyDisplayName" xml:space="preserve">
+    <value>Domin Drive Design Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;DomainEventModel&apos; on DomainRelationship &apos;DominDriveDesignModelHasDomainEventModels&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.AggregateRootShape.Description" xml:space="preserve">
+    <value>Shape used to represent ExampleElements on a Diagram.</value>
+    <comment>Description for DomainClass &apos;AggregateRootShape&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.AggregateRootShape.DisplayName" xml:space="preserve">
+    <value>Aggregate Root Shape</value>
+    <comment>DisplayName for DomainClass &apos;AggregateRootShape&apos;</comment>
+  </data>
+  <data name="AggregateRootShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="AggregateRootShapeprototypeDefaultText" xml:space="preserve">
+    <value>AggregateRoot</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityShape.Description" xml:space="preserve">
+    <value>Shape used to represent ExampleElements on a Diagram.</value>
+    <comment>Description for DomainClass &apos;EntityShape&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.EntityShape.DisplayName" xml:space="preserve">
+    <value>Entity Shape</value>
+    <comment>DisplayName for DomainClass &apos;EntityShape&apos;</comment>
+  </data>
+  <data name="EntityShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DomainServiceShape.Description" xml:space="preserve">
+    <value>Shape used to represent ExampleElements on a Diagram.</value>
+    <comment>Description for DomainClass &apos;DomainServiceShape&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DomainServiceShape.DisplayName" xml:space="preserve">
+    <value>Domain Service Shape</value>
+    <comment>DisplayName for DomainClass &apos;DomainServiceShape&apos;</comment>
+  </data>
+  <data name="DomainServiceShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.FactoryShape.Description" xml:space="preserve">
+    <value>Shape used to represent ExampleElements on a Diagram.</value>
+    <comment>Description for DomainClass &apos;FactoryShape&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.FactoryShape.DisplayName" xml:space="preserve">
+    <value>Factory Shape</value>
+    <comment>DisplayName for DomainClass &apos;FactoryShape&apos;</comment>
+  </data>
+  <data name="FactoryShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.ValueObjectShape.Description" xml:space="preserve">
+    <value>Shape used to represent ExampleElements on a Diagram.</value>
+    <comment>Description for DomainClass &apos;ValueObjectShape&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.ValueObjectShape.DisplayName" xml:space="preserve">
+    <value>Value Object Shape</value>
+    <comment>DisplayName for DomainClass &apos;ValueObjectShape&apos;</comment>
+  </data>
+  <data name="ValueObjectShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DomainEventShape.Description" xml:space="preserve">
+    <value>Shape used to represent ExampleElements on a Diagram.</value>
+    <comment>Description for DomainClass &apos;DomainEventShape&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.DomainEventShape.DisplayName" xml:space="preserve">
+    <value>Domain Event Shape</value>
+    <comment>DisplayName for DomainClass &apos;DomainEventShape&apos;</comment>
+  </data>
+  <data name="DomainEventShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.ExampleConnector.Description" xml:space="preserve">
+    <value>Connector between the ExampleShapes. Represents ExampleRelationships on the Diagram.</value>
+    <comment>Description for DomainClass &apos;ExampleConnector&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.ExampleConnector.DisplayName" xml:space="preserve">
+    <value>Example Connector</value>
+    <comment>DisplayName for DomainClass &apos;ExampleConnector&apos;</comment>
+  </data>
+  <data name="FormatList" xml:space="preserve">
+    <value>BinbinDomainLanguage (*.binbinddddsl)|*.binbinddddsl</value>
+    <comment>A list of file format specifiers for the Save dialog box</comment>
+  </data>
+  <data name="ModelExplorerTitle" xml:space="preserve">
+    <value>BinbinDomainLanguage Explorer</value>
+    <comment>Model Explorer Toolwindow title</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.BinbinDomainLanguageDiagram.Description" xml:space="preserve">
+    <value>Description for Com.Lotos.BinbinDomainLanguage.BinbinDomainLanguageDiagram</value>
+    <comment>Description for DomainClass &apos;BinbinDomainLanguageDiagram&apos;</comment>
+  </data>
+  <data name="Com.Lotos.BinbinDomainLanguage.BinbinDomainLanguageDiagram.DisplayName" xml:space="preserve">
+    <value>Minimal Language Diagram</value>
+    <comment>DisplayName for DomainClass &apos;BinbinDomainLanguageDiagram&apos;</comment>
+  </data>
+  <data name="BinbinDomainLanguageToolboxTab" xml:space="preserve">
+    <value>BinbinDomainLanguage</value>
+    <comment>Toolbox item tab name</comment>
+  </data>
+  <data name="AggregateRootToolboxItem" xml:space="preserve">
+    <value>AggregateRoot</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="AggregateRootToolboxTooltip" xml:space="preserve">
+    <value>Create an ExampleElement</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EntityRelationshipToolboxItem" xml:space="preserve">
+    <value>EntityRelationship</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EntityRelationshipToolboxTooltip" xml:space="preserve">
+    <value>Drag between ExampleElements to create an ExampleRelationship</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EntityToolboxItem" xml:space="preserve">
+    <value>Entity</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EntityToolboxTooltip" xml:space="preserve">
+    <value>Entity</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ValueObjectToolboxItem" xml:space="preserve">
+    <value>ValueObject</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ValueObjectToolboxTooltip" xml:space="preserve">
+    <value>Value Object</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="FactoryToolboxItem" xml:space="preserve">
+    <value>Factory</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="FactoryToolboxTooltip" xml:space="preserve">
+    <value>Factory</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="DomainServiceToolboxItem" xml:space="preserve">
+    <value>DomainService</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="DomainServiceToolboxTooltip" xml:space="preserve">
+    <value>Domain Service</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="DomainEventToolboxItem" xml:space="preserve">
+    <value>DomainEvent</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="DomainEventToolboxTooltip" xml:space="preserve">
+    <value>Domain Event</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EntiyValueObjectRelationShipToolboxItem" xml:space="preserve">
+    <value>EntiyValueObjectRelationShip</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EntiyValueObjectRelationShipToolboxTooltip" xml:space="preserve">
+    <value>Entiy Value Object Relation Ship</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="UnresolvedToolboxItem" xml:space="preserve">
+    <value>ToolboxItem {0} was not found</value>
+    <comment>Invalid toolId</comment>
+  </data>
+  <data name="UnsupportedToolboxFormat" xml:space="preserve">
+    <value>Unsupported toolbox format: {0}</value>
+    <comment>Unsupported format Id</comment>
+  </data>
+  <data name="UnrecognizedElementType" xml:space="preserve">
+    <value>ElementType {0} is not recognized as a type of domain class which belongs to this domain model.</value>
+    <comment>Incorrect ElementType passed in to Model.CreateElement method</comment>
+  </data>
+  <data name="UnrecognizedElementLinkType" xml:space="preserve">
+    <value>ElementLinkType {0} is not recognized as a type of domain relationship which belongs to this domain model.</value>
+    <comment>Incorrect ElementLinkType passed in to Model.CreateElementLink method</comment>
+  </data>
+  <data name="AmbiguousSchema" xml:space="preserve">
+    <value>More than one schema found for target namespace &apos;{0}&apos;, use the first one at &apos;{1}&apos;.</value>
+    <comment>Serialization Warning: AmbiguousSchema</comment>
+  </data>
+  <data name="ExpectingFullFormRelationship" xml:space="preserve">
+    <value>Element &apos;{0}&apos; is treated as the target role-player of a relationship &apos;{1}&apos; instance, which should be serialized in full-form.</value>
+    <comment>Serialization Warning: ExpectingFullFormRelationship</comment>
+  </data>
+  <data name="ExpectingShortFormRelationship" xml:space="preserve">
+    <value>Instances of relationship &apos;{0}&apos; should be serialized in short-form.</value>
+    <comment>Serialization Warning: ExpectingShortFormRelationship</comment>
+  </data>
+  <data name="IgnoredPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;, ignored.</value>
+    <comment>Serialization Warning: IgnoredPropertyValue</comment>
+  </data>
+  <data name="MissingId" xml:space="preserve">
+    <value>Missing &apos;Id&apos; attribute, a new Guid &apos;{0}&apos; is auto-generated.</value>
+    <comment>Serialization Warning: MissingId</comment>
+  </data>
+  <data name="MonikerResolvedToDuplicateLink" xml:space="preserve">
+    <value>Resolving moniker &apos;{0}&apos; causes a duplicate link to be created, so the link and the moniker are ignored.</value>
+    <comment>Serialization Warning: MonikerResolvedToDuplicateLink</comment>
+  </data>
+  <data name="NoSchema" xml:space="preserve">
+    <value>Cannot find a schema that defines target namespace &apos;{0}&apos;, schema validation skipped.</value>
+    <comment>Serialization Warning: NoSchema</comment>
+  </data>
+  <data name="UnexpectedXmlElement" xml:space="preserve">
+    <value>Unexpected XML element &apos;{0}&apos;, ignored.</value>
+    <comment>Serialization Warning: UnexpectedXmlElement</comment>
+  </data>
+  <data name="AmbiguousMoniker" xml:space="preserve">
+    <value>Ambiguous moniker &apos;{0}&apos; encountered. It is used for both &apos;{1}&apos; and &apos;{2}&apos;.</value>
+    <comment>Serialization Error: AmbiguousMoniker</comment>
+  </data>
+  <data name="CannotMonikerizeElement" xml:space="preserve">
+    <value>Instances of DomainClass &apos;{0}&apos; cannot be serialized as a moniker.
+A DomainClass can be serialized as a moniker only if 
+1) it has a defined/inherited DomainProperty marked as IsMonikerKey=true, or 
+2) it is marked/inherited with SerializeId=true.</value>
+    <comment>Serialization Error: CannotMonikerizeElement</comment>
+  </data>
+  <data name="CannotOpenDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotOpenDocument</comment>
+  </data>
+  <data name="CannotSaveDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotSaveDocument</comment>
+  </data>
+  <data name="DanglingRelationship" xml:space="preserve">
+    <value>Relationship &apos;{0}&apos; instance is missing target role-player.</value>
+    <comment>Serialization Error: DanglingRelationship</comment>
+  </data>
+  <data name="InvalidPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;.</value>
+    <comment>Serialization Error: InvalidPropertyValue</comment>
+  </data>
+  <data name="MissingMoniker" xml:space="preserve">
+    <value>Missing moniker. A moniker is expected in attribute &apos;{0}&apos;.</value>
+    <comment>Serialization Error: MissingMoniker</comment>
+  </data>
+  <data name="MissingTransaction" xml:space="preserve">
+    <value>This must be called within the context of an active transaction.</value>
+    <comment>Serialization Error: MissingTransaction</comment>
+  </data>
+  <data name="UnresolvedMoniker" xml:space="preserve">
+    <value>Cannot resolve moniker &apos;{0}&apos;.</value>
+    <comment>Serialization Error: UnresolvedMoniker</comment>
+  </data>
+  <data name="VersionMismatch" xml:space="preserve">
+    <value>Unsupported version &apos;{0}&apos;, can only support &apos;{1}&apos;.</value>
+    <comment>Serialization Error: VersionMismatch</comment>
+  </data>
+  <data name="CannotCloseExistingDiagramDocument" xml:space="preserve">
+    <value>Diagram file &apos;{0}&apos; cannot be closed.</value>
+    <comment>User cancel closing diagram file. Hence, the DSL model file cannot be opened</comment>
+  </data>
+  <data name="BindingErrorOccurred" xml:space="preserve">
+    <value>Extensions for this designer may not be found as a MEF binding error has occurred. The error that occurred was:
+{0}</value>
+    <comment>MEF binding error occurred - exception message being logged in the error window so the user is aware.</comment>
+  </data>
+  <data name="InvalidSaveRootElementType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid root element type.</value>
+    <comment>Exception message used if an invalid root element type is passed to IDomainModelSerializer.SaveModel / SaveModelAndDiagram</comment>
+  </data>
+  <data name="InvalidSaveDiagramType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid diagram type.</value>
+    <comment>Exception message used if an invalid diagram type is passed to IDomainModelSerializer.SaveModelAndDiagram</comment>
+  </data>
+  <data name="MinimumMultiplicityMissingLink" xml:space="preserve">
+    <value>{0} {1} has no {2}.</value>
+    <comment>Multiplicity underflow validation.</comment>
+  </data>
+  <data name="SaveOperationCancelled" xml:space="preserve">
+    <value>Save operation cancelled.</value>
+    <comment>Message when save is cancelled on validation errors</comment>
+  </data>
+  <data name="SaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors, continue save?</value>
+    <comment>Message when validation errors are found on save</comment>
+  </data>
+  <data name="UnloadableSaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors. Continuing to save may cause the file to become unloadable, do you want to continue?</value>
+    <comment>Message when validation errors are found on save that will cause file to become unloadable</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AggregateRootToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\exampleshapetoolbitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EntityRelationshipToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\exampleconnectortoolbitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EntityToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ValueObjectToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="FactoryToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="DomainServiceToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="DomainEventToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EntiyValueObjectRelationShipToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+</root>
+
+
